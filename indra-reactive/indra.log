@@ -6922,3 +6922,9 @@ java.lang.NoClassDefFoundError: org/springframework/jdbc/datasource/init/ScriptU
 2023-05-17 17:29:52.481  INFO 3168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 146 ms. Found 1 R2DBC repository interfaces.
 2023-05-17 17:29:55.763  INFO 3168 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8083
 2023-05-17 17:29:55.783  INFO 3168 --- [main] c.e.i.IndraReactiveApplication           : Started IndraReactiveApplication in 5.413 seconds (JVM running for 8.082)
+2023-05-17 18:10:40.255  INFO 10104 --- [main] c.e.i.IndraReactiveApplication           : Starting IndraReactiveApplication using Java 11.0.17 on DESKTOP-LPKN5E6 with PID 10104 (C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-reactive\indra-reactive\target\classes started by Usuario in C:\Users\Usuario\Desktop\prueba_tecnica_indra\indra-reactive\indra-reactive)
+2023-05-17 18:10:40.271  INFO 10104 --- [main] c.e.i.IndraReactiveApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-05-17 18:10:41.734  INFO 10104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2023-05-17 18:10:41.880  INFO 10104 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 137 ms. Found 1 R2DBC repository interfaces.
+2023-05-17 18:10:47.360  INFO 10104 --- [main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8083
+2023-05-17 18:10:47.386  INFO 10104 --- [main] c.e.i.IndraReactiveApplication           : Started IndraReactiveApplication in 8.087 seconds (JVM running for 10.429)

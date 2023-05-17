@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS price (
     id INT NOT NULL,
     curr VARCHAR(255),
     end_date TIMESTAMP,
-    price DECIMAL,
+    price DECIMAL(19, 2),
     priority INTEGER,
     start_date TIMESTAMP,
     brand_id INT,
