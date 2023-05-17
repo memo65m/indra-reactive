@@ -63,7 +63,7 @@ class PriceControllerTest {
 
         StepVerifier.create(priceDTOFlux)
                 .expectSubscription()
-                .expectNextMatches(priceDTO -> priceDTO.getStartDate().equals(startDate))
+                .expectNextMatches(priceDTO -> priceDTO.getStartDate().equals(startDate) && priceDTO.getEndDate().equals(endDate))
                 .verifyComplete();
     }
 
